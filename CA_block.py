@@ -137,7 +137,7 @@ class ResNet(nn.Module):
 
 
 
-        self.fc = nn.Linear(512* block.expansion*196, 30)
+        self.fc = nn.Linear(512* block.expansion*196, 5)
         self.drop = nn.Dropout(p=0.1)
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
