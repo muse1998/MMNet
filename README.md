@@ -1,5 +1,5 @@
 # MMNet
-A novel two-branch MER paradigm
+A novel two-branch （micro-expression recognition）MER paradigm
 # Citation
 **@inproceedings{li2022mmnet,<br>
   title={MMNet: Muscle motion-guided network for micro-expression recognition},<br>
