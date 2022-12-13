@@ -18,7 +18,7 @@ from resmodel_attn_group import resnet18_pos_attention,resnet50
 from timm.models import create_model
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
-from models import VisionTransformer_POS
+from PC_module import VisionTransformer_POS
 from torch.utils.data import ConcatDataset
 from gradcam import show_cam_on_image, GradCam, preprocess_image
 import confusion_matrix
