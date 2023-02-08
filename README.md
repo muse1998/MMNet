@@ -1,7 +1,13 @@
 # MMNet
 A novel two-branch （micro-expression recognition）MER paradigm
 ![](./pipline.png)
-
+# Training on CASME II dataset
+```bash
+# 3-class MER
+python CASME2_3.py
+# 5-class MER
+python CASME2_5.py
+```
 # Citation
 If you find our work useful, please consider citing our paper:
 ```bash
