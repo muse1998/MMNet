@@ -284,7 +284,7 @@ def criterion2(y_pred, y_true):
 
 class MMNet(nn.Module):
     def __init__(self):
-        super(Autoencoder_au, self).__init__()
+        super(MMNet, self).__init__()
 
 
         self.conv_act = nn.Sequential(
