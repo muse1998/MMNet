@@ -9,7 +9,7 @@ from torch.autograd import Variable
 import pandas as pd
 import os, torch
 import torch.nn as nn
-import image_utils
+#import image_utils
 import argparse, random
 from functools import partial
 
@@ -123,7 +123,7 @@ class RafDataSet(data.Dataset):
             ##label
 
         self.basic_aug = basic_aug
-        self.aug_func = [image_utils.flip_image,image_utils.add_gaussian_noise]
+        #self.aug_func = [image_utils.flip_image,image_utils.add_gaussian_noise]
 
     def __len__(self):
         return len(self.file_paths_on)
