@@ -10,8 +10,7 @@ python CASME2_5.py
 ```
 # Citation
 # also train on CASME3_7,CASME3_5,SMIC,FERV39K by drink36
-# We change this paper's fullconnect layer to 7 classes
-# You can find our model here https://drive.google.com/drive/folders/1U1f4GEfxPxGxPaUFaFvXOarc4m5xtPWy?usp=sharing
+# We change this paper's full connect layer to 7 classes, You can find our model here https://drive.google.com/drive/folders/1U1f4GEfxPxGxPaUFaFvXOarc4m5xtPWy?usp=sharing
 If you find our work useful, please consider citing our paper: 
 ```bash
 @inproceedings{li2022mmnet,
